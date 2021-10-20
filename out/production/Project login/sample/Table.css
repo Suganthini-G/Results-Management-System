@@ -1,0 +1,60 @@
+.table-view {
+    -fx-background-color: #F06292;
+    -fx-background-radius: 14 14 0 0;
+
+    }
+.table-view .column-header-background{
+        -fx-background-color: #F06292;
+        -fx-background-radius: 14;
+        -fx-background-insets: 0 0 1 0;
+    }
+.table-view .column-header, .table-view .filler{
+        -fx-size: 30px;
+        -fx-border-width: 0 0 10 0;
+        -fx-background-color: transparent;
+    }
+
+.table-view .column-header .label {
+        -fx-text-fill: white;
+    }
+
+.table-view .table-cell{
+        -fx-border-color: transparent;
+        -fx-padding: 2 0 2 10px;
+        -fx-text-align: center_right;
+}
+
+.table-row-cell: hover{
+        -fx-background-color: #F48FEC;
+        -fx-text-background-color: red;
+}
+
+.table-row-cell: odd{
+        -fx-background-color: #FCE4EC;
+        -fx-background-insets: 0, 0 0 1 0;
+        -fx-padding: 0.0em;
+}
+
+.table-row-cell: even{
+        -fx-background-color: #F8BBD0;
+        -fx-background-insets: 0, 0 0 1 0;
+        -fx-padding: 0.0em;
+}
+
+
+    .button
+    {
+    -fx-background-color : #880E4F;
+    -fx-text-fill : white;
+    -fx-background-radius: 14;
+    }
+
+    .button:hover{
+    -fx-background-color : #FF80AB;
+    -fx-cursor: hand;
+    }
+
+    .button:pressed
+    {
+    -fx-background-color : #F50057;
+    }

@@ -1,0 +1,60 @@
+.table-view {
+    -fx-background-color: #26A69A;
+    -fx-background-radius: 14 14 0 0;
+
+    }
+.table-view .column-header-background{
+        -fx-background-color: #26A69A;
+        -fx-background-radius: 14;
+        -fx-background-insets: 0 0 1 0;
+    }
+.table-view .column-header, .table-view .filler{
+        -fx-size: 50px;
+        -fx-border-width: 0 0 10 0;
+        -fx-background-color: transparent;
+    }
+
+.table-view .column-header .label {
+        -fx-text-fill: white;
+    }
+
+.table-view .table-cell{
+        -fx-border-color: transparent;
+        -fx-padding: 2 0 2 50px;
+        -fx-text-align: center_right;
+}
+
+.table-row-cell: hover{
+        -fx-background-color: #A5D6A7;
+        -fx-text-background-color: red;
+}
+
+.table-row-cell: odd{
+        -fx-background-color: #E0F2F1;
+        -fx-background-insets: 0, 0 0 1 0;
+        -fx-padding: 0.0em;
+}
+
+.table-row-cell: even{
+        -fx-background-color: #B2DFDB;
+        -fx-background-insets: 0, 0 0 1 0;
+        -fx-padding: 0.0em;
+}
+
+
+    .button
+    {
+    -fx-background-color : #00B8D4;
+    -fx-text-fill : white;
+    -fx-background-radius: 14;
+    }
+
+    .button:hover{
+    -fx-background-color : #00ACC1;
+    -fx-cursor: hand;
+    }
+
+    .button:pressed
+    {
+    -fx-background-color : #E0F7FA;
+    }
